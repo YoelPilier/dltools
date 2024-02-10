@@ -59,7 +59,7 @@ class BucketManager:
             newx=bx
             newy=by
             img=img.resize((newx,newy),Image.LANCZOS)
-            print("resize")
+            #print("resize")
             return img
         
         elif imgratio>ratio:
